@@ -1,0 +1,200 @@
+body {font-family: "Lato", sans-serif;}
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+  padding-top: 16px;
+  position: fixed;
+  margin-left:-8px;
+  margin-top:-8px;
+  
+}
+
+#linkler
+{
+	
+	margin-top:280px;
+	
+}
+
+#profil {
+ 
+  margin-top:200px;
+  z-index: 1;
+  top: 650;
+  left: 0;
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sideba {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  margin-left: 88%;
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+
+
+.h1{
+  font-size:15px;
+  color:black;
+  margin-top: 0%;
+  margin-left:7%;
+}
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  display: block;
+  
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sideba a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  display: block;
+}
+
+.sideba a:hover {
+  color: #f1f1f1;
+}
+
+
+.main {
+  margin-left: 160px; 
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+  .doktorImg {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: 500px;
+    top: 37px;
+  }
+  .doktorAd {
+    position: absolute;
+    top: 90px;
+    left: 400px;
+    font-size: 34px;
+  }
+  .gwd-path-14l3 {
+    position: absolute;
+    width: 631px;
+    height: 5px;
+    fill: none;
+    stroke: rgb(0, 0, 0);
+    stroke-width: 1px;
+    left: 400px;
+    top: 160px;
+  }
+  .egitimList {
+    position: absolute;
+    left: 419px;
+    top: 197px;
+    transform-origin: 50% 50% 0px;
+    width: 325px;
+    height: 67px;
+    
+    font-size: 24px;
+  }
+  .kariyerList {
+    position: absolute;
+    left: 421px;
+    top: 340px;
+    height: 68px;
+    transform-origin: 50% 50% 0px;
+    width: 500px;
+
+    font-size: 24px;
+  }
+  .iletisimList {
+    position: absolute;
+    left: 421px;
+    top: 481px;
+    width: 500px;
+    height: 68px;
+    transform-origin: 50% 50% 0px;
+
+    font-size: 24px;
+  }
+
+  .meetButton {
+    position: absolute;
+    top: 650px;
+    width: 250px;
+    height: 80px;
+    left: 400px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+   
+  }
+  
+  .meetButton:hover {background-color: whitesmoke}
+
+    .meetButton:active {
+        background-color: #b5e7a0;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+}
+  
+.zoomButton {
+    position: absolute;
+    top: 650px;
+    width: 250px;
+    height: 80px;
+    left: 750px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+   
+  }
+  
+  .zoomButton:hover {background-color: whitesmoke}
+
+    .zoomButton:hover:active {
+        background-color: #deeaee;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+}
+  

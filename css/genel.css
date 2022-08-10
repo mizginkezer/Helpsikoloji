@@ -1,0 +1,160 @@
+
+body {font-family: "Lato", sans-serif;}
+
+
+
+
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+  padding-top: 16px;
+  position: fixed;
+  margin-left:-8px;
+  margin-top:-8px;
+  
+}
+
+#linkler
+{
+	
+	margin-top:280px;
+	
+}
+
+#profil {
+ 
+  margin-top:200px;
+  z-index: 1;
+  top: 650;
+  left: 0;
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sideba {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  margin-left: 88%;
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+
+
+.h1{
+  font-size:15px;
+  color:black;
+  margin-top: 0%;
+  margin-left:7%;
+}
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  display: block;
+  
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sideba a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  display: block;
+}
+
+.sideba a:hover {
+  color: #f1f1f1;
+}
+
+
+.main {
+  margin-left: 160px; 
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+.ortadiv
+{
+ width:600px;
+ 
+ 
+}
+.ortadiv img
+{
+	margin-top:300px;
+	
+}
+
+#ikon a 
+{
+	text-decoration:none;
+	color: #ff0000;
+}
+
+.btn {
+    display: inline-block;
+    padding: 4px 8px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    border: 1px #706f6f solid;
+    border-top-color: rgb(112, 111, 111);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(112, 111, 111);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(112, 111, 111);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(112, 111, 111);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 4px;
+    cursor: default;
+}
+
+
+.ornek-r {
+    -moz-box-shadow: 5px 5px black;
+    -webkit-box-shadow: 5px 5px black;
+    box-shadow: 5px 5px black;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid gray;
+    width: 750;
+    position: absolute;
+    left: 27%;
+    top: 30%;
+}
+
+table a.active {
+    background-color: gray;
+    color: white;
+}

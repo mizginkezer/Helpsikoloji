@@ -1,0 +1,110 @@
+
+body {font-family: "Lato", sans-serif;}
+
+
+
+
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+  padding-top: 16px;
+  position: fixed;
+  margin-left:-8px;
+  margin-top:-8px;
+  
+}
+
+#linkler
+{
+	
+	margin-top:280px;
+	
+}
+
+#profil {
+ 
+  margin-top:200px;
+  z-index: 1;
+  top: 650;
+  left: 0;
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sideba {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  margin-left: 88%;
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+
+
+.h1{
+  font-size:15px;
+  color:black;
+  margin-top: 0%;
+  margin-left:7%;
+}
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  display: block;
+  
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sideba a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  display: block;
+}
+
+.sideba a:hover {
+  color: #f1f1f1;
+}
+
+
+.main {
+  margin-left: 160px; 
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+.ortadiv
+{
+ width:600px;
+ 
+ 
+}
+.ortadiv img
+{
+	margin-top:300px;
+	
+}
+
+#ikon a 
+{
+	text-decoration:none;
+	color: #ff0000;
+}
